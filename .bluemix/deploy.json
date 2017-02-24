@@ -118,6 +118,7 @@
         "repo-branch",
         "deploy-org",
         "deploy-space",
+        "deploy-suffix",
         "apic-user",
         "apic-pass",
         "shared-secret",
@@ -131,6 +132,12 @@
         {
             "type": "validator",
             "url": "/devops/setup/bm-helper/helper.html"
+        },
+        {
+            "type": "text",
+            "readonly": false,
+            "title": "Deployment suffix VikasDesai",
+            "key": "deploy-suffix"
         },
         {
             "type": "text",
